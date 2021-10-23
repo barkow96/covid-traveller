@@ -1,0 +1,66 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+    background-color: red;    
+}
+
+#mapid {
+    height: 98%;
+}
+
+.fixed-no-select {
+    user-select: none;
+    position: fixed;
+    z-index: 999;
+}
+
+#legend {
+    width: 250px;
+    padding: 5px;
+    top: 25px;
+    right: 25px;
+
+    background-color: lightblue;
+    border: 2px red solid;
+    border-radius: 25px;
+
+    text-align: right;
+    font-size: 12px;
+}
+
+#explanation {
+    width: 300px;
+    padding: 5px;
+    bottom: 50px;
+    right: 25px;
+    
+    background-color: red;
+    border: 2px red solid;
+    border-radius: 25px;
+
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.color {
+    font-weight: bold;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.orange {
+    color: orange;
+}
+
+.red {
+    color: red;
+}
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */
