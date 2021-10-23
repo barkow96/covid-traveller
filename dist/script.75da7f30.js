@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"data/countriesBorders.js":[function(require,module,exports) {
+})({"countriesBorders.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -518,7 +518,7 @@ var countriesBorders = {
 };
 var _default = countriesBorders;
 exports.default = _default;
-},{}],"data/countriesCodes.js":[function(require,module,exports) {
+},{}],"countriesCodes.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -580,7 +580,7 @@ var countriesCodes = {
 };
 var _default = countriesCodes;
 exports.default = _default;
-},{}],"data/countriesInfo.js":[function(require,module,exports) {
+},{}],"countriesInfo.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -1180,11 +1180,11 @@ exports.default = _default;
 },{}],"script.js":[function(require,module,exports) {
 "use strict";
 
-var _countriesBorders = _interopRequireDefault(require("./data/countriesBorders"));
+var _countriesBorders = _interopRequireDefault(require("./countriesBorders"));
 
-var _countriesCodes = _interopRequireDefault(require("./data/countriesCodes"));
+var _countriesCodes = _interopRequireDefault(require("./countriesCodes"));
 
-var _countriesInfo = _interopRequireDefault(require("./data/countriesInfo"));
+var _countriesInfo = _interopRequireDefault(require("./countriesInfo"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1328,7 +1328,7 @@ var decipherCountry = function decipherCountry(countryCode) {
 myMap.addEventListener("click", function (event) {
   return handleClick(event);
 });
-},{"./data/countriesBorders":"data/countriesBorders.js","./data/countriesCodes":"data/countriesCodes.js","./data/countriesInfo":"data/countriesInfo.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./countriesBorders":"countriesBorders.js","./countriesCodes":"countriesCodes.js","./countriesInfo":"countriesInfo.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -1356,7 +1356,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56944" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58818" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

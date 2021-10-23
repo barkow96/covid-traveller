@@ -1,6 +1,6 @@
-import countriesBorders from "./data/countriesBorders";
-import countriesCodes from "./data/countriesCodes";
-import countriesInfo from "./data/countriesInfo";
+import countriesBorders from "./countriesBorders";
+import countriesCodes from "./countriesCodes";
+import countriesInfo from "./countriesInfo";
 
 //COUNTRY HIGHLIGHTNING SETTINGS
 const GEO_COUNTRY_WEIGHT = 3;
