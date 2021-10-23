@@ -43,7 +43,7 @@ const handleClick = (event) => {
     const lng = Math.round(event.latlng.lng*100)/100;
 
     //"GEONAMES API" REQUEST - GET COUNTRY ISO CODE
-    const URL = `http://api.geonames.org/countryCode?lat=${lat}&lng=${lng}&username=barkow96`;
+    const URL = `https://secure.geonames.org/countryCode?lat=${lat}&lng=${lng}&username=barkow96`;
     const http = new XMLHttpRequest();
     http.open("GET", URL);
     http.send();
