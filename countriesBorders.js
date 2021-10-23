@@ -1,4 +1,4 @@
-const countriesBorders = {
+export default const countriesBorders = {
     "type": "FeatureCollection",
     "features": [
       {
@@ -8573,5 +8573,3 @@ const countriesBorders = {
       }
     ]
   };
-
-export default countriesBorders;
